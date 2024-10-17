@@ -6,8 +6,8 @@
 ProjectName            :=FirstProgram
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=E:/C++/Udemy/Workspaces/Workspace1
-ProjectPath            :=E:/C++/Udemy/Workspaces/Workspace1/FirstProgram
+WorkspacePath          :="E:/C++/Udemy/First Repository/Cpp-Practice/First Program"
+ProjectPath            :="E:/C++/Udemy/First Repository/Cpp-Practice/First Program/FirstProgram"
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/FirstProgram
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=E:/C++/Udemy/Workspaces/Workspace1/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=E:/C++/Udemy/First Repository/Cpp-Practice/First Program/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/C++/Udemy/Workspaces/Workspace1/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/C++/Udemy/First Repository/Cpp-Practice/First Program/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
