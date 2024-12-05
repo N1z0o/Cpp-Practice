@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Workspace1" Database="" Version="10000">
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
-  <Project Name="Operators" Path="Operators/Operators.project" Active="Yes"/>
+  <Project Name="Operators" Path="Operators/Operators.project" Active="No"/>
+  <Project Name="Bool" Path="Bool/Bool.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="Vector" ConfigName="Debug"/>
       <Project Name="Operators" ConfigName="Debug"/>
+      <Project Name="Bool" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="FirstProgram" ConfigName="Release"/>
       <Project Name="Vector" ConfigName="Release"/>
       <Project Name="Operators" ConfigName="Release"/>
+      <Project Name="Bool" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
