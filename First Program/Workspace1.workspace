@@ -3,7 +3,8 @@
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
   <Project Name="Operators" Path="Operators/Operators.project" Active="No"/>
-  <Project Name="Bool" Path="Bool/Bool.project" Active="Yes"/>
+  <Project Name="Bool" Path="Bool/Bool.project" Active="No"/>
+  <Project Name="Section_8_Challenge" Path="Section_8_Challenge/Section_8_Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="Vector" ConfigName="Debug"/>
       <Project Name="Operators" ConfigName="Debug"/>
       <Project Name="Bool" ConfigName="Debug"/>
+      <Project Name="Section_8_Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="Vector" ConfigName="Release"/>
       <Project Name="Operators" ConfigName="Release"/>
       <Project Name="Bool" ConfigName="Release"/>
+      <Project Name="Section_8_Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
